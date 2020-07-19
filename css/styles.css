@@ -2025,10 +2025,6 @@ pre code {
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(254, 209, 54, 0.25);
 }
-.form-control::-webkit-input-placeholder {
-  color: #6c757d;
-  opacity: 1;
-}
 .form-control::-moz-placeholder {
   color: #6c757d;
   opacity: 1;
@@ -10140,6 +10136,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
+  background-blend-mode: multiply;
   background-image: url("../assets/img/header-bg.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
